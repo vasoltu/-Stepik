@@ -1,6 +1,6 @@
-def update_team(teams, team, count1, count2): # 'Создание функции'
+def update_team(teams, team, count1, count2): # 'Функции(для обновления данных о команде в словаре)'
     if team not in teams:
-        teams[team] = [0, 0, 0, 0, 0]
+        teams[team] = [0, 0, 0, 0, 0] 
     teams[team][0] += 1
     if int(count1) > int(count2):  # 'Победа'
         teams[team][1] += 1
