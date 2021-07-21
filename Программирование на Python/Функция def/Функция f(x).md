@@ -3,21 +3,27 @@
 
 Требуется реализовать только функцию, решение не должно осуществлять операций ввода-вывода.
 
-## Sample Input 1:
-
+**Sample Input 1:**
+```
 4.5
-## Sample Output 1:
-
+```
+**Sample Output 1:**
+```
 7.25
-## Sample Input 2:
-
+```
+**Sample Input 2:**
+```
 -4.5
-## Sample Output 2:
-
+```
+**Sample Output 2:**
+```
 -5.25
-## Sample Input 3:
-
+```
+**Sample Input 3:**
+```
 1
-## Sample Output 3:
-
+```
+**Sample Output 3:**
+```
 -0.5
+```
