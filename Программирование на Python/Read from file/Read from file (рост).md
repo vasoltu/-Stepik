@@ -1,4 +1,4 @@
-## Read from file (рост).py
+## [Read from file (рост).py](https://github.com/vasoltu/-Stepik/blob/main/Программирование%20на%20Python/Read%20from%20file/Read%20from%20file%20(рост).py)
 Дан файл с таблицей в формате [TSV](https://ru.wikipedia.org/wiki/TSV) с информацией о росте школьников разных классов.
 
 Напишите программу, которая прочитает этот файл и подсчитает для каждого класса средний рост учащегося.
