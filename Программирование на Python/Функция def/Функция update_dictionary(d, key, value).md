@@ -1,4 +1,4 @@
-## Функция update_dictionary(d, key, value).py
+## [Функция update_dictionary(d, key, value).py](https://github.com/vasoltu/-Stepik/blob/main/Программирование%20на%20Python/Функция%20def/Функция%20update_dictionary(d%2C%20key%2C%20value).py)
 Напишите функцию `update_dictionary(d, key, value)`, которая принимает на вход словарь dd и два числа: keykey и valuevalue.
 
 Если ключ keykey есть в словаре dd, то добавьте значение valuevalue в список, который хранится по этому ключу.
