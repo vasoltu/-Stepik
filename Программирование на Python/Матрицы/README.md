@@ -1,4 +1,4 @@
-## [Матрица (змейка).py](https://github.com/vasoltu/-Stepik/blob/main/Программирование%20на%20Python/Матрицы/Матрица%20(змейка).py), [Матрица (змейка в др_сторону).py](https://github.com/vasoltu/-Stepik/blob/main/Программирование%20на%20Python/Матрицы/Матрица%20(змейка%20в%20др_сторону).py)
+## [Matrix (snake).py](https://github.com/vasoltu/-Stepik/blob/main/Программирование%20на%20Python/Матрицы/Matrix%20(snake).py), [Matrix (snake to the other_side).py](https://github.com/vasoltu/-Stepik/blob/main/Программирование%20на%20Python/Матрицы/Matrix%20(snake%20to%20the%20other_side).py)
 Выведите таблицу размером `n*n`, заполненную числами от `1` до `n^2` 
 по спирали, выходящей из левого верхнего угла и закрученной по часовой стрелке, как показано в примере (здесь `n = 5`):
 
