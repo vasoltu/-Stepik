@@ -1,32 +1,32 @@
 str = ''     # 'Создание пустой стоки'
-b = 0
-spstr = []   # 'Создание пустого списка'
-a = []       # 'Создание пустого списка'
+sumelent = 0
+spisoknoc = []   # 'Создание пустого списка'
+spisoknol = []       # 'Создание пустого списка'
 while str != 'end':     # '1 цикл(заполнение списка и создание списка списков)'
     str = input()       # 'Ввод'
     if str == 'end':    # '1 условие(прерывание цикла)'
         break
     else:
-        spstr = str.split(' ')
-        a.append(spstr)
+        spisoknoc = str.split(' ')
+        spisoknol.append(spisoknoc)
 
-cr = len(spstr)             # 'Длина (количество столбцов)'
-cs = len(a)                 # 'Длина (количество строк)'
+cr = len(spisoknoc)             # 'Длина (количество столбцов)'
+cs = len(spisoknol)             # 'Длина (количество строк)'
 i = 0
 j = 0
 for i in range(cs):      # '2 цикл(создание матрицы)'
     for j in range(cr):  # '3 цикл(создание матрицы)
         if i + 1 == cs and j + 1 != cr:    # '2 условие(последняя строка, но не последний столбец)'
-            b = int(a[i - 1][j]) + int(a[0][j]) + int(a[i][j - 1]) + int(a[i][j + 1])
-            print(b, end=' ')
+            sumelent = int(spisoknol[i - 1][j]) + int(spisoknol[0][j]) + int(spisoknol[i][j - 1]) + int(spisoknol[i][j + 1])
+            print(sumelent, end=' ')
         elif i + 1 == cs and j + 1 == cr:  # '3 условие(последняя строка, последний столбец)'
-            b = int(a[i - 1][j]) + int(a[0][j]) + int(a[i][j - 1]) + int(a[i][0])
-            print(b, end=' ')
+            sumelent = int(spisoknol[i - 1][j]) + int(spisoknol[0][j]) + int(spisoknol[i][j - 1]) + int(spisoknol[i][0])
+            print(sumelent, end=' ')
         elif i < cs and j + 1 == cr:       # '4 условие(не последняя строка, но последний столбец)'
-            b = int(a[i - 1][j]) + int(a[i + 1][j]) + int(a[i][j - 1]) + int(a[i][0])
-            print(b, end=' ')
+            sumelent = int(spisoknol[i - 1][j]) + int(spisoknol[i + 1][j]) + int(spisoknol[i][j - 1]) + int(spisoknol[i][0])
+            print(sumelent, end=' ')
         elif i < cs and j + 1 != cr:       # '5 условие(не последняя строка, не последний столбец)'
-            b = int(a[i - 1][j]) + int(a[i + 1][j]) + int(a[i][j - 1]) + int(a[i][j + 1])
-            print(b, end=' ')
+            sumelent = int(spisoknol[i - 1][j]) + int(spisoknol[i + 1][j]) + int(spisoknol[i][j - 1]) + int(spisoknol[i][j + 1])
+            print(sumelent, end=' ')
 
     print()
