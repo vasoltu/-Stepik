@@ -1,4 +1,4 @@
-## [Функция f(x) (опр.).py](https://github.com/vasoltu/-Stepik/blob/main/Программирование%20на%20Python/Функции/Функция%20f(x)%20(опр.).py)
+## [Function f(x) (opr.).py](https://github.com/vasoltu/-Stepik/blob/main/Программирование%20на%20Python/Функции/Function%20f(x)%20(opr.).py)
 Напишите программу, которая считывает строку с числом nn, которое задаёт количество чисел, которые нужно считать. Далее считывает `n` строк с числами `x(i)`, 
 по одному числу в каждой строке. Итого будет `n + 1 строк`.
 
@@ -25,7 +25,7 @@
 41
 ```
 
-## [Функция f(x).py](https://github.com/vasoltu/-Stepik/blob/main/Программирование%20на%20Python/Функции/Функция%20f(x).py) 
+## [Function f(x).py](https://github.com/vasoltu/-Stepik/blob/main/Программирование%20на%20Python/Функции/Function%20f(x).py) 
 Напишите функцию `f(x)`, которая возвращает значение следующей функции, определённой на всей числовой прямой:
 
 Требуется реализовать только функцию, решение не должно осуществлять операций ввода-вывода.
@@ -55,7 +55,7 @@
 -0.5
 ```
 
-## [Функция modify_list(l).py](https://github.com/vasoltu/-Stepik/blob/main/Программирование%20на%20Python/Функции/Функция%20modify_list(l).py)
+## [Function modify_list(l).py](https://github.com/vasoltu/-Stepik/blob/main/Программирование%20на%20Python/Функции/Function%20modify_list(l).py)
 Напишите функцию `modify_list(l)`, которая принимает на вход список целых чисел, удаляет из него все нечётные значения, а чётные нацело делит на два. Функция не должна ничего возвращать, требуется только изменение переданного списка, например:
 ```
 lst = [1, 2, 3, 4, 5, 6]
@@ -70,7 +70,7 @@ print(lst)                     # [5, 4]
 ```
 Функция не должна осуществлять ввод/вывод информации.
 
-## [Функция update_dictionary(d, key, value).py](https://github.com/vasoltu/-Stepik/blob/main/Программирование%20на%20Python/Функции/Функция%20update_dictionary(d%2C%20key%2C%20value).py)
+## [Function update_dictionary(d, key, value).py](https://github.com/vasoltu/-Stepik/blob/main/Программирование%20на%20Python/Функции/Function%20update_dictionary(d,%20key,%20value).py)
 Напишите функцию `update_dictionary(d, key, value)`, которая принимает на вход словарь dd и два числа: keykey и valuevalue.
 
 Если ключ keykey есть в словаре dd, то добавьте значение valuevalue в список, который хранится по этому ключу.
@@ -90,7 +90,7 @@ update_dictionary(d, 1, -3)
 print(d)                            # {2: [-1, -2, -3]}
 ```
 
-## [Футбольчик.py](https://github.com/vasoltu/-Stepik/blob/main/Программирование%20на%20Python/Функции/Футбольчик.py), [Futbolicik.py](https://github.com/vasoltu/-Stepik/blob/main/Программирование%20на%20Python/Функции/Futbolicik.py)
+## [Soccer(function).py](https://github.com/vasoltu/-Stepik/blob/main/Программирование%20на%20Python/Функции/Soccer(function).py), [Soccer.py](https://github.com/vasoltu/-Stepik/blob/main/Программирование%20на%20Python/Функции/Soccer.py)
 Напишите программу, которая принимает на стандартный вход список игр футбольных команд с результатом матча и выводит на стандартный вывод сводную таблицу результатов всех матчей.
 
 За победу команде начисляется `3` очка, за поражение — `0`, за ничью — `1`.
