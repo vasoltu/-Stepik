@@ -4,40 +4,40 @@ for line in open(file, 'r'):  # 'Построчное чтение и склеи
     s = s + ' ' + line.rstrip()
 
 sc = s.lower()  # 'Регистр'
-sp = sc.split()  # 'Перевод в список'
-sp.sort()  # 'Сортировка списка'
-print(sp)  # 'Печать списка'
-c = len(sp)  # 'Длина списка'
+spisok = sc.split()  # 'Перевод в список'
+spisok.sort()  # 'Сортировка списка'
+print(spisok)  # 'Печать списка'
+length = len(spisok)  # 'Длина списка'
 dict = {}    # 'Создать пустой словарь'
-b = sp[0]
-i = 1               # 'Номер очередного элемента списка'
-k = 1               # 'Количество одинаковых элементов, стоящих подряд'
+elem = spisok[0]
+num = 1               # 'Номер очередного элемента списка'
+count = 1               # 'Количество одинаковых элементов, стоящих подряд'
 
-while i < c:
-    if sp[i] == b:  # 'Считаем кол-во одинаковых элементов, стоящих подряд'
-        k = k + 1
-        i = i + 1
+while num < length:
+    if spisok[num] == elem:  # 'Считаем кол-во одинаковых элементов, стоящих подряд'
+        count = count + 1
+        num = num + 1
     else:           # 'Заносим в словарь'
-        if k in dict:   # 'Добавляем в список по существующему ключу'
-            dict[k] += [b]
+        if count in dict:   # 'Добавляем в список по существующему ключу'
+            dict[count] += [elem]
         else:       # 'Заносим новый ключ и начинаем формировать список'
-            dict.update({k: [b]})
-        if i < c:
-            b = sp[i]   # 'Запоминаем след. элемент исх. списка для подсчета вхождений'
-            i = i + 1
-            k = 1
-if k >= 1:              # 'Запись инф. о последнем эл-те исх. списка'
-    if k in dict:
-        dict[k] += [b]
+            dict.update({count: [elem]})
+        if num < length:
+            elem = spisok[num]   # 'Запоминаем след. элемент исх. списка для подсчета вхождений'
+            num = num + 1
+            count = 1
+if count >= 1:              # 'Запись инф. о последнем эл-те исх. списка'
+    if count in dict:
+        dict[count] += [elem]
     else:
-        dict.update({k: [b]})
-kl = list(dict.keys())  # 'Получение списка из всех ключей словаря'
-ckl = len(kl)
-mx = kl[0]
-for j in range(ckl):    # 'Поиск максимального ключа'
-    if mx < kl[j]:
-        mx = kl[j]
-kw = dict[mx]           # 'Список значений из словаря по максимальному ключу'
+        dict.update({count: [elem]})
+all_key = list(dict.keys())  # 'Получение списка из всех ключей словаря'
+len_all_key = len(all_key)
+max_key = all_key[0]
+for j in range(len_all_key):    # 'Поиск максимального ключа'
+    if max_key < all_key[j]:
+        max_key = all_key[j]
+max_key_elem = dict[max_key]           # 'Список значений из словаря по максимальному ключу'
 file = open('dataset(выход)(повтор слов).txt', 'w+')
-print(kw[0], mx, file=file)  # 'Запись инф. в файл'
+print(max_key_elem[0], max_key, file=file)  # 'Запись инф. в файл'
 file.close()
