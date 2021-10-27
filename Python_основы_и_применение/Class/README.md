@@ -58,7 +58,7 @@ class MoneyBox:
 Гарантируется, что метод add(self, v) будет вызываться только если can_add(self, v) – True.
 
 
-## [Class_requests_graf(rek).py](https://github.com/vasoltu/Stepik/blob/main/Python_основы_и_применение/Class/Class_requests_graf(rek).py) ## [Class_requests_graf(mass).py](https://github.com/vasoltu/Stepik/blob/main/Python_основы_и_применение/Class/Class_requests_graf(mass).py)
+## [Class_requests_graf(rek).py](https://github.com/vasoltu/Stepik/blob/main/Python_основы_и_применение/Class/Class_requests_graf(rek).py)[Class_requests_graf(mass).py](https://github.com/vasoltu/Stepik/blob/main/Python_основы_и_применение/Class/Class_requests_graf(mass).py)
 Дано описание наследования классов в следующем формате:
 <имя класса 1> : <имя класса 2> <имя класса 3> ... <имя класса k>
 Это означает, что класс 1 отнаследован от класса 2, класса 3, и т. д.
