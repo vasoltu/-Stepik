@@ -109,7 +109,7 @@ class C(B):
 Для каждого запроса выведите в отдельной строке слово "Yes", если класс 1 является предком класса 2, и "No", если не является.
 
 
-## [Class_requests_graf(rek).py](https://github.com/vasoltu/Stepik/blob/main/Python_основы_и_применение/Class/Class_requests_graf(rek).py)
+## [Class_LoggableList.py](https://github.com/vasoltu/Stepik/blob/main/Python_основы_и_применение/Class/Class_LoggableList.py)
 Рассмотрим класс Loggable:
 ```
 import time
