@@ -1,4 +1,4 @@
-## [Class_Buffer.py](https://github.com/vasoltu/Stepik/blob/main/Python_основы_и_применение/Class/Class_Buffer.py)
+## [Namespace(create_add_get).py](https://github.com/vasoltu/Stepik/blob/main/Python_основы_и_применение/Namespace(create_add_get).py)
 Реализовать программу, которая будет эмулировать работу с пространствами имен. Необходимо реализовать поддержку создания пространств имен и добавление в них переменных.
 
 В данной задаче у каждого пространства имен есть уникальный текстовый идентификатор – его имя.
